@@ -12,3 +12,5 @@ class RunCukesTest {
 
 //new changes for dev branch
 //push code to dev 
+
+//Practice of pull command
