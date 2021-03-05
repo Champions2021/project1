@@ -5,10 +5,8 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src\\test\\resources\\ResultPageForShoes.feature",tags = "@ShoesPriceRanges")
+@CucumberOptions(features = "src\\test\\resources",tags = "@ShoesSelection")
 
 class RunCukesTest {
 }
 
-//new changes for dev branch
-//push code to dev 

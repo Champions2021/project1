@@ -125,5 +125,21 @@ public class ResultPageForSohes extends DriverFactory {
         Assert.assertTrue(itemLocationRadioButton.isSelected());
     }
 
+    //For selection of the shoes from the Results page
+
+    @FindBy(css = ".s-item__title.s-item__title--with-icon")
+    List<WebElement> shoesProductNames;
+
+    public void selectionOfShoes(){
+        List<WebElement> shoesNames = shoesProductNames;
+        for (WebElement shoesName : shoesNames){
+            System.out.println(shoesName.getText());
+            if (shoesName.getText().contains("Ladies Womens Trainers Sneakers Lace Up Jogging Fashion Gym Comfy Pumps Shoes")){
+                shoesName.click();
+                break;
+            }
+        }
+    }
+
 
 } //Class Ends
