@@ -18,7 +18,7 @@ public class ProductDescriptionForShoes extends DriverFactory {
     public void selectShoesColourAndSize(){
 
         Select s1 = new Select(colourDropdown);
-        s1.selectByVisibleText("BLUE NEW");
+        s1.selectByVisibleText("BLACK NEW");
        // s1.selectByIndex(2);
        // s1.selectByValue("2");
 

@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src\\test\\resources",tags = "@ShoesSelection")
+@CucumberOptions(features = "src\\test\\resources")
 
 class RunCukesTest {
 }
