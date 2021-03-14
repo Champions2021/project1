@@ -31,7 +31,7 @@ public class DriverFactory {
 
 
     public void closeBrowser(){
-        //driver.quit();
+        driver.quit();
     }
 
     public void sleep(int ms){
