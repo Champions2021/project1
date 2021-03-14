@@ -17,3 +17,12 @@ Feature: Trolley Page For Shoes Functionality
     And user select shoes colour and size
     And user add the product of shoes to basket
     Then user able to see that selected shoes into trolley
+
+  @ShoesPrice
+  Scenario: Check the price When increase the Quantity
+    Given user is on shoes Resultpage of Ebay website
+    When user select one product of the shoes
+    And user select shoes colour and size
+    And user add the product of shoes to basket
+    And user increase the shoes quantity
+    Then user able to see shoes price is increase as per quantity
