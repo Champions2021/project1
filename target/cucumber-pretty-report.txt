@@ -1,0 +1,13 @@
+
+@ShoesPrice
+Scenario: Check the price When increase the Quantity            [90m# src/test/resources/TrolleyPageForShoes.feature:22[0m
+  [32mGiven [0m[32muser is on ebay homepage[0m                                [90m# BDD_PracticeEbay.StepsDefinitions.HomePageSteps.IndividualProdSearchSteps.user_is_on_ebay_homepage()[0m
+  [32mWhen [0m[32muser types shoes in serach box[0m                           [90m# BDD_PracticeEbay.StepsDefinitions.HomePageSteps.IndividualProdSearchSteps.user_types_shoes_in_serach_box()[0m
+  [32mAnd [0m[32muser click on search button[0m                               [90m# BDD_PracticeEbay.StepsDefinitions.HomePageSteps.IndividualProdSearchSteps.user_click_on_search_button()[0m
+  [32mThen [0m[32muser should able to see all shoes products[0m               [90m# BDD_PracticeEbay.StepsDefinitions.HomePageSteps.IndividualProdSearchSteps.user_should_able_to_see_all_shoes_products()[0m
+  [32mGiven [0m[32muser is on shoes Resultpage of Ebay website[0m             [90m# BDD_PracticeEbay.StepsDefinitions.ResultsPageForShoesSteps.ShoeSizeCheckboxSteps.user_is_on_shoes_resultpage_of_ebay_website()[0m
+  [32mWhen [0m[32muser select one product of the shoes[0m                     [90m# BDD_PracticeEbay.StepsDefinitions.TrolleyPageForShoesSteps.SelectedShoesIntoTrolleySteps.user_select_one_product_of_the_shoes()[0m
+  [32mAnd [0m[32muser select shoes colour and size[0m                         [90m# BDD_PracticeEbay.StepsDefinitions.TrolleyPageForShoesSteps.SelectedShoesIntoTrolleySteps.userSelectShoesColourAndSize()[0m
+  [32mAnd [0m[32muser add the product of shoes to basket[0m                   [90m# BDD_PracticeEbay.StepsDefinitions.TrolleyPageForShoesSteps.SelectedShoesIntoTrolleySteps.userAddTheProductOfShoesToBasket()[0m
+  [32mAnd [0m[32muser increase the shoes quantity[0m                          [90m# BDD_PracticeEbay.StepsDefinitions.TrolleyPageForShoesSteps.ShoesQuantityIncreaseSteps.user_increase_the_shoes_quantity()[0m
+  [32mThen [0m[32muser able to see shoes price is increase as per quantity[0m [90m# BDD_PracticeEbay.StepsDefinitions.TrolleyPageForShoesSteps.ShoesQuantityIncreaseSteps.user_able_to_see_shoes_price_is_increase_as_per_quantity()[0m
