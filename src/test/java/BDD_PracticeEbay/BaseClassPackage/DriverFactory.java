@@ -22,7 +22,7 @@ public class DriverFactory {
     public void openBrowser(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.ebay.co.uk/");
         driver.manage().window().maximize();
         sleep(8000);
