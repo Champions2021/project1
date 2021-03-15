@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src\\test\\resources",tags = "@ShoesPrice",
+@CucumberOptions(features = "src\\test\\resources",tags = "@IndividualProduct",
         plugin = { "html:target/cucumber-html-report",
                     "json:target/cucumber-json-report.json",
                     "junit:target/cucumber-junit-report.xml",
